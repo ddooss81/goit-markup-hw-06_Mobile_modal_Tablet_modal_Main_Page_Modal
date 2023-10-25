@@ -1,0 +1,267 @@
+@media (min-width: 767px) and (max-width: 1158px) {
+  .container {
+    width: 768px;
+    padding: 0 16px;
+  }
+  .heder_div {
+    border: none;
+    box-shadow: none;
+  }
+  .section_first {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tab@2.jpg);
+    padding: 112px 0;
+  }
+
+  .header_menu {
+    margin: auto;
+  }
+
+  .section_h_first {
+    margin-bottom: 36px;
+    padding: 0 0px;
+    line-height: 1.07;
+    font-size: 56px;
+  }
+
+  .address_style {
+    font-size: 12px;
+    display: grid;
+    columns: 1;
+    gap: 0px;
+    letter-spacing: 0.04em;
+    margin: auto;
+    line-height: 20px;
+  }
+
+  .address_style a {
+    font-size: 12px;
+    line-height: 8px;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+
+  .section_h_first {
+    font-size: 36px;
+    margin-bottom: 72px;
+    line-height: 40px;
+    padding: 0px 60px;
+  }
+
+  .second_section {
+    padding: 96px 0;
+  }
+
+  .second_section_list {
+    display: grid;
+    grid-template-columns: repeat(2, 356px);
+    width: 356px;
+    gap: 72px 24px;
+  }
+
+  .second_section .container {
+    margin: 0 auto;
+  }
+
+  .second_section_li {
+    width: auto;
+    /* margin-bottom: 72px; */
+  }
+  .section_two_icon {
+    display: none;
+    margin: 0;
+  }
+
+  .section_second_title {
+    font-size: 36px;
+    text-align: left;
+    line-height: 1.11;
+    margin-top: 0;
+  }
+
+  .paragr_section_two {
+    font-size: 16px;
+  }
+
+  .second_section_li:last-child {
+    margin-bottom: 0;
+  }
+
+  /* section_third */
+  .section_third {
+    padding: 96px 0;
+  }
+
+  .section_third_li {
+    width: 100%;
+    margin: auto 12px;
+    justify-content: center;
+  }
+
+  .section_third_li .img {
+    width: auto;
+    height: auto;
+  }
+
+  .section_third_list {
+    display: grid;
+    grid-template-columns: repeat(2, 264px);
+    gap: 64px 24px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fourth_pic {
+    width: 360px;
+    height: 300px;
+  }
+
+  /* section fourth */
+  .section_fourth {
+    padding: 96px 0;
+  }
+
+  .section_fourth_li {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+      0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+      0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    border: 1px solid rgba(244, 244, 253, 1);
+  }
+
+  .section_fourth_list {
+    display: grid;
+    grid-template-columns: repeat(2, 356px);
+    gap: 72px 24px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section_four_img_div {
+    width: 356px;
+    height: 300px;
+  }
+
+  .section_four_img_div img {
+    width: 100%;
+  }
+
+  .section_fourth_div {
+    width: 288px;
+    padding: 32px 0px 32px 16px;
+    border: none;
+  }
+
+  .container_div {
+    display: grid;
+    grid-template-columns: repeat(2, 264px);
+    /* align-items: center; */
+    justify-content: center;
+    gap: 72px 0px;
+  }
+
+  .footer_div {
+    margin: 0;
+  }
+
+  .logo_footer_start {
+    display: block;
+    /* text-align: center; */
+    margin-bottom: 19px;
+  }
+
+  .main_footer {
+    padding: 96px 0;
+  }
+
+  .soc_div_footer {
+    padding: 0px 0;
+    display: block;
+    text-align: center;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .footer_soc_li {
+    justify-content: center;
+  }
+  .p_footer_soc {
+    margin-right: 112px;
+  }
+
+  .footer_email {
+    display: grid;
+    grid-template-columns: repeat(1, 264px);
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .footer_email_para {
+    display: block;
+    width: 264px;
+  }
+
+  .email_form_label_enter {
+    width: 264px;
+  }
+
+  .modal_form_email {
+    width: 264px;
+    display: grid;
+    grid-template-columns: repeat(2, 265px);
+    /* justify-items: center; */
+    align-items: center;
+    /* gap: 16px; */
+  }
+
+  .footer_field_email {
+    width: 264px;
+  }
+
+  .email_foot_btn {
+    width: 165px;
+  }
+
+  .section_fourth_list {
+    margin: auto;
+  }
+
+  .modal_main {
+    width: 408px;
+    max-width: 53%;
+  }
+
+  .heder_butoon_menu {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .heder_menu {
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .heder_menu_start {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
