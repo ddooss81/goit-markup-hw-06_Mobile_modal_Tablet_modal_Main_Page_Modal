@@ -819,6 +819,8 @@ footer {
 }
 
 .check_box_policy {
+  display: flex;
+  align-items: center;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -826,6 +828,7 @@ footer {
 }
 
 .check_box_policy_span {
+  display: flex;
   margin-right: 8px;
   width: 16px;
   height: 16px;
@@ -838,6 +841,12 @@ footer {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  flex-shrink: 0;
+}
+
+.check_box_policy_span_two {
+  display: flex;
+  flex-shrink: 0;
 }
 
 /* .svg_policy {
