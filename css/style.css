@@ -780,6 +780,7 @@ footer {
   top: 50%;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(-50%);
+  fill: #2e2f42;
 }
 
 .user_name_input_field:focus + .svg_modal_name {
